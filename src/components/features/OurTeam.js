@@ -17,6 +17,7 @@ import JesseProfile from "images/jesse.jpg";
 import NicoleProfile from "images/Nicoleprofile.png";
 import YuchuProfile from "images/yuchu.jpg";
 import EricProfile from "images/eric.jpg";
+import ShrishtiProfile from "images/shrishti.jpeg";
 
 const Container = tw.div`relative bg-primary-800 -mx-8 px-8 text-gray-100`;
 
@@ -92,7 +93,10 @@ const DSCmembers = [
     description: " Hi, I’m Bryan. I am a fourth year Data Science major. I hope to use my understanding of Data Science to help others make informed data-driven decisions. I enjoy skateboarding and playing video games with friends. " },
   { imageSrc: YuchuProfile, 
     title: "Yuchu Yan",
-    description: "Hi, I'm a senior student at UCSD, majoring in Data Science with a minor in General Biology. My ambition is to integrate data science with other fields, particularly in the realm of biology. In my spare time, I enjoy go-karting, motorcycling, and baking." }
+    description: "Hi, I'm a senior student at UCSD, majoring in Data Science with a minor in General Biology. My ambition is to integrate data science with other fields, particularly in the realm of biology. In my spare time, I enjoy go-karting, motorcycling, and baking." },
+  { imageSrc: ShrishtiProfile, 
+      title: "Shrishti Seksaria",
+      description: "Hi! Im Shrishti, senior at UCSD pursuing Data Science and Economics. I hope to use data and technology to help others make better data driven decisions across all industries. In my free time I like to write poetry, play badminton, or go hiking ! " }
 ];
 
 if (!members) members = DSCmembers;

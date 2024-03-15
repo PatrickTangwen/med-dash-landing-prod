@@ -14,10 +14,16 @@ import HedeProfile from "images/hede.jpeg";
 import TwhscProfile from "images/twhsc.jpeg";
 import BryanProfile from "images/bryan.jpeg";
 import JesseProfile from "images/jesse.jpg";
-import NicoleProfile from "images/Nicoleprofile.png";
+
 import YuchuProfile from "images/yuchu.jpg";
 import EricProfile from "images/eric.jpg";
 import ShrishtiProfile from "images/shrishti.jpeg";
+import RuchiProfile from "images/ruchi.jpg"
+import JessicaProfile from 'images/jessica.jpg'
+import OwenProfile from 'images/owen.jpg'
+import MelissaProfile from 'images/melissa.jpg'
+import MarinaProfile from 'images/marina.jpg'
+import ShreyaProfile from 'images/shreya.jpg'
 
 const Container = tw.div`relative bg-primary-800 -mx-8 px-8 text-gray-100`;
 
@@ -94,9 +100,29 @@ const DSCmembers = [
   { imageSrc: YuchuProfile, 
     title: "Yuchu Yan",
     description: "Hi, I'm a senior student at UCSD, majoring in Data Science with a minor in General Biology. My ambition is to integrate data science with other fields, particularly in the realm of biology. In my spare time, I enjoy go-karting, motorcycling, and baking." },
-  { imageSrc: ShrishtiProfile, 
+    { imageSrc: ShrishtiProfile, 
       title: "Shrishti Seksaria",
-      description: "Hi! Im Shrishti, senior at UCSD pursuing Data Science and Economics. I hope to use data and technology to help others make better data driven decisions across all industries. In my free time I like to write poetry, play badminton, or go hiking ! " }
+      description: "Hi! Im Shrishti, senior at UCSD pursuing Data Science and Economics. I hope to use data and technology to help others make better data driven decisions across all industries. In my free time I like to write poetry, play badminton, or go hiking!" },
+  { imageSrc: RuchiProfile, 
+        title: "Ruchi Kamboj",
+        description: " Hi, I’m Ruchi Kamboj and I’m a fourth year Bioengineering: Bioinformatics major. Through this dashboard, I want to empower individuals with a clearer comprehension of their health data, enhancing patient-provider communication. My intended goal is to be a pediatrician. In my free time, I like to go on walks and bake." },
+  { imageSrc: JessicaProfile, 
+    title: "Jessica Fong",
+    description: "Hi! I’m Jessica, a 4th year Bioengineering: Bioinformatics major. I want to use my computer science knowledge and coding skills to build projects that will improve people’s lives. In my free time, I like to watch anime, read, or go on a walk." },
+  { imageSrc: OwenProfile, 
+    title: "Owen Guan",
+    description: "I’m Owen a 4th year Bioengineering: Bioinformatics major. My career goal is to apply bioinformatics to health or biological data to create meaningful, practical quality of life improvements for patients and everyday people. In my free time, I enjoy socializing with friends about TV shows and movies, and going to the gym and video games." },
+
+  { imageSrc: MelissaProfile, 
+    title: "Melissa Osheroff",
+    description: "Hello, my name is Melissa and I am part of the Bioengineering team! I plan on graduating with a degree in Bioinformatics in June 2024. After college I hope to be able to pursue a career which combines technology with improving people’s day to day lives. In my free time, I like to hike in national parks, attend pizookie Tuesdays, and paint with friends." },
+  { imageSrc: MarinaProfile, 
+    title: "Marina Xu",
+    description: "Hi! I’m Marina, and I’m a graduating Bioengineering: Bioinformatics major. I’m not too sure what I want to do after graduation, but my ultimate career goal is to teach science or technology to high schoolers. I like hiking, playing with my dog, and going out with my friends in my free time!" },
+  { imageSrc: ShreyaProfile, 
+    title: "Shreya Nagesh",
+    description: "Hi! I’m Shreya, a 4th year Bioengineering: Bioinformatics major. After graduation, I am aiming to work in health or clinical informatics, as I hope to work with data that positively impacts people’s health. In my free time I like to spend time outdoors, curate Spotify playlists, and hang out with friends!" },
+
 ];
 
 if (!members) members = DSCmembers;
